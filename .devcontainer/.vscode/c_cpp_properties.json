@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Emscripten",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/juniorit/emsdk/upstream/emscripten/cache/sysroot/include"
+            ],
+            "defines": ["__EMSCRIPTEN__"],
+            "compilerPath": "/home/juniorit/emsdk/upstream/emscripten/emcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

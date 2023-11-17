@@ -1,0 +1,43 @@
+{
+  "image": "haicam/juniorit-clang:latest",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "overrideCommand": false,
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/juniorit/workspace/${localWorkspaceFolderBasename},type=bind,consistency=cached",
+  "workspaceFolder": "/home/juniorit/workspace",
+  "mounts": [
+  ],
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": ""
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "JuniorIT-AI.vscode-juniorit",
+        "ms-vscode.cpptools-extension-pack",
+        "bmewburn.vscode-intelephense-client"
+      ],
+      "settings": {
+        "extensions.ignoreRecommendations": true
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        ""
+      ]
+    }
+  },
+  "portsAttributes": {
+    "9000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [
+    9000
+  ]
+}
