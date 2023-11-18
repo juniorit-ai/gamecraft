@@ -8,6 +8,9 @@
   "workspaceFolder": "/home/juniorit/workspace",
   "mounts": [
   ],
+  "containerEnv": {
+    "GAMECRAFT_PROJECT_PATH": "/home/juniorit/workspace/${localWorkspaceFolderBasename}"
+  },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
   "postCreateCommand": "",
