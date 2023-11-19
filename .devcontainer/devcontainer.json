@@ -1,5 +1,5 @@
 {
-  "image": "haicam/juniorit-clang:latest",
+  "image": "haicam/juniorit-clang:v1.0.1",
   "hostRequirements": {
     "cpus": 2
   },
