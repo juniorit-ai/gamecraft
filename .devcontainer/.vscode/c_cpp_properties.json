@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "/home/juniorit/emsdk/upstream/emscripten/cache/sysroot/include"
             ],
-            "defines": ["__EMSCRIPTEN__"],
+            "defines": ["__EMSCRIPTEN__", "_GNU_SOURCE"],
             "compilerPath": "/home/juniorit/emsdk/upstream/emscripten/emcc",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
