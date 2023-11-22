@@ -1,5 +1,7 @@
 {
-  "image": "haicam/juniorit-clang:v1.0.2",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "hostRequirements": {
     "cpus": 2
   },
