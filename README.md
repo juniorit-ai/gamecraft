@@ -1,40 +1,39 @@
-# GameCraft-clang Dev Container Project
+# GameCraft Dev Container Project
 
 ## Introduction
 
-Welcome to the GameCraft-clang Dev Container project! This project is an exciting journey into the world of game development using the C language, tailored specifically for educational purposes. Developed by JuniorIT.AI, GameCraft-clang is a Pure C SDL2 game engine that harnesses the simplicity of C and the concepts of object-oriented programming, akin to C++. 
+Welcome to the GameCraft Dev Container project! This initiative is an exciting foray into the realm of game development, encompassing multiple languages and frameworks, all tailored for educational purposes. Developed by JuniorIT.AI, GameCraft is a versatile game engine that supports Pure C & SDL2, C++ & SDL2, Python & Pygame, TypeScript & PixiJS, and Dart & Flutter Frame. This diversity caters to a broad range of programming preferences and learning styles.
 
-## Why GameCraft-clang?
+## Why GameCraft?
 
-GameCraft-clang is uniquely designed to teach the fundamentals of C language through the engaging process of game development. By diving into this project, you'll not only grasp the basics of C but also gain insights into how C++ operates, all within the context of a game engine. This approach offers a dual advantage – understanding core programming concepts and applying them in a practical, enjoyable way.
+GameCraft stands out as a multi-faceted platform designed to teach the fundamentals of various programming languages through the engaging medium of game development. Whether you're interested in C, C++, Python, TypeScript, or Dart, GameCraft provides an intuitive and practical approach to learning. This method offers the dual advantage of understanding core programming concepts and applying them in a hands-on, enjoyable manner.
 
 ### Key Features
 
-- **Object-Oriented Programming in C:** GameCraft-clang demonstrates how object-oriented principles can be implemented in C, providing a bridge to understanding C++.
-- **Hands-On Learning:** Develop a game from scratch, reinforcing your learning through real-world application.
-- **Insights into Game Engine Mechanics:** Discover the inner workings of game engines, an essential skill for any aspiring game developer.
+- **Multiple Languages and Frameworks:** GameCraft supports Pure C & SDL2, C++ & SDL2, Python & Pygame, TypeScript & PixiJS, and Dart & Flutter Frame, offering a broad spectrum of learning opportunities.
+- **Hands-On Learning Across Languages:** Develop games using your language of choice, reinforcing learning through practical application.
+- **Insights into Game Engine Mechanics:** Understand the inner workings of game engines with different programming paradigms, an essential skill for any aspiring game developer.
 
 ## Setting Up the Dev Container
 
-Our development container is designed to streamline the setup process, ensuring you can start learning without the hassle of complex configurations. By using this dev container, you'll have all the necessary tools and libraries pre-installed, allowing you to jump straight into developing your game with GameCraft-clang.
+Our development container is tailored to streamline the setup process across different languages and frameworks, ensuring a smooth start. By using this dev container, you’ll have access to all the necessary tools and libraries for your chosen language, allowing you to dive right into game development with GameCraft.
 
 ### Prerequisites
 
-- Basic understanding of programming concepts.
-- Familiarity with C language is beneficial but not mandatory.
+- No prior coding knowledge required! This project is suitable for complete beginners and those looking to broaden their programming skills.
 
 ### Getting Started
 
-1. **Clone the Repository:** Start by cloning the GameCraft-clang project repository.
-2. **Open in Dev Container:** Load the project in the development container, which sets up your environment automatically.
-3. **Explore the Documentation:** Familiarize yourself with the structure and capabilities of GameCraft-clang through our comprehensive documentation.
-4. **Start Developing:** Begin your journey by working on simple game projects, gradually escalating to more complex tasks.
+1. **Clone the Repository:** Begin by cloning the GameCraft project repository.
+2. **Open in Dev Container:** Load the project in the development container, which automatically sets up your environment based on your chosen language and framework.
+3. **Explore the Documentation:** Delve into the comprehensive documentation to understand the structure and capabilities of GameCraft in different programming contexts.
+4. **Start Developing:** Embark on your journey by working on simple game projects, gradually progressing to more complex challenges.
 
 ## Learn and Grow
 
-By the end of this course, you will not only understand the basics of C and the operational principles of C++ but also gain a deep insight into game engine mechanics. This knowledge paves the way for you to potentially develop your own game engine in the future.
+By the end of this course, you will not only have a solid understanding of your chosen programming language but also gain deep insights into the mechanics of game engines. This knowledge equips you to potentially explore game engine development further, using the language and framework of your preference.
 
-Embark on this educational adventure with GameCraft-clang and transform your understanding of game development and programming!
+Embark on this educational adventure with GameCraft and transform your understanding of game development and programming across multiple languages!
 
 Join our Discord Server for more details at [https://juniorit.ai/discord ](https://juniorit.ai/discord)
 
