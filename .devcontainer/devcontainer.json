@@ -9,6 +9,7 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/juniorit/workspace/${localWorkspaceFolderBasename},type=bind,consistency=cached",
   "workspaceFolder": "/home/juniorit/workspace",
   "mounts": [
+    "source=/home/frankhe/Dropbox/github_workspace/py-game-project,target=/home/juniorit/workspace/py-session-1,type=bind,consistency=cached"
   ],
   "containerEnv": {
     "GAMECRAFT_PROJECT_PATH": "/home/juniorit/workspace/${localWorkspaceFolderBasename}"
@@ -24,7 +25,9 @@
       "extensions": [
         "JuniorIT-AI.vscode-juniorit",
         "ms-vscode.cpptools-extension-pack",
-        "bmewburn.vscode-intelephense-client"
+        "bmewburn.vscode-intelephense-client",
+        "kevinrose.vsc-python-indent",
+        "ms-python.python"
       ],
       "settings": {
         "extensions.ignoreRecommendations": true
