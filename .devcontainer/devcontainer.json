@@ -40,9 +40,13 @@
     "8000": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "9000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
     }
   },
   "forwardPorts": [
-    8000
+    8000, 9000
   ]
 }
