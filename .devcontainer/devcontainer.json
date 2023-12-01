@@ -9,6 +9,8 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/juniorit/workspace/${localWorkspaceFolderBasename},type=bind,consistency=cached",
   "workspaceFolder": "/home/juniorit/workspace",
   "mounts": [
+    "source=/home/frankhe/Dropbox/github_workspace/py-game-project,target=/home/juniorit/workspace/py-session-1,type=bind,consistency=cached",
+    "source=/home/frankhe/Dropbox/github_workspace/ts-game-project,target=/home/juniorit/workspace/ts-session-1,type=bind,consistency=cached"
   ],
   "containerEnv": {
     "GAMECRAFT_PROJECT_PATH": "/home/juniorit/workspace/${localWorkspaceFolderBasename}"
@@ -27,7 +29,8 @@
         "bmewburn.vscode-intelephense-client",
         "kevinrose.vsc-python-indent",
         "ms-python.python",
-        "ms-python.autopep8"
+        "ms-python.autopep8",
+        "ms-vscode.vscode-typescript-next"
       ],
       "settings": {
         "extensions.ignoreRecommendations": true
