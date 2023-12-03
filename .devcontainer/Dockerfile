@@ -17,4 +17,4 @@ ENV PHP_INI_SCAN_DIR /usr/local/etc
 WORKDIR /home/$USERNAME/workspace
 USER $USERNAME
 
-ENTRYPOINT /usr/local/bin/jdaemon
+ENTRYPOINT sh -c '(/usr/local/bin/jdaemon &) && sleep infinity'
