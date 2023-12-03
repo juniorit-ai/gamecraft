@@ -1,4 +1,5 @@
 {
+  "name": "JuniorIT.AI GameCraft",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -10,17 +11,13 @@
   "workspaceFolder": "/home/juniorit/workspace",
   "mounts": [
     "source=/home/frankhe/Dropbox/github_workspace/py-game-project,target=/home/juniorit/workspace/py-session-1,type=bind,consistency=cached",
-    "source=/home/frankhe/Dropbox/github_workspace/ts-game-project,target=/home/juniorit/workspace/ts-session-1,type=bind,consistency=cached"
+    "source=/home/frankhe/Dropbox/github_workspace/ts-game-project,target=/home/juniorit/workspace/ts-session-1,type=bind,consistency=cached",
+    "source=/home/frankhe/Dropbox/github_workspace/dart-game-project,target=/home/juniorit/workspace/dart-session-1,type=bind,consistency=cached"
   ],
   "containerEnv": {
     "GAMECRAFT_PROJECT_PATH": "/home/juniorit/workspace/${localWorkspaceFolderBasename}"
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "",
-  "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": ""
-  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -35,11 +32,6 @@
       "settings": {
         "extensions.ignoreRecommendations": true
       }
-    },
-    "codespaces": {
-      "openFiles": [
-        ""
-      ]
     }
   },
   "portsAttributes": {
